@@ -22,6 +22,8 @@ module.exports = {
       white: colors.white,
       slate: colors.slate,
       gray: {
+        1: "#424242",
+        2: "#282828",
         50: "#FAFAFC",
         100: "#E9E9EC",
         200: "#C6C8CD",
@@ -976,5 +978,5 @@ module.exports = {
     "active",
     "disabled",
   ],
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
