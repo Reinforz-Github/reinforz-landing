@@ -2,15 +2,18 @@
 import Container from "./Container.astro";
 ---
 
-<footer class="py-20 md:py-40">
+<footer class="py-20 bg-gray-3">
   <Container>
     <div
-      class="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12 flex flex-col justify-center items-center"
+      class="m-auto w-8/12 md:w-10/12 lg:w-8/12 xl:w-6/12 flex md:flex-col justify-between md:justify-center items-center"
     >
       <div
         class="flex items-center justify-center text-white sm:w-7/12 md:justify-center"
       >
-        <ul role="list" class="space-x-8 flex">
+        <ul
+          role="list"
+          class="md:space-x-8 md:space-y-0 space-y-3 list md:flex"
+        >
           <li><a href="#" class="transition hover:text-primary">Home</a></li>
 
           <li><a href="#" class="transition hover:text-primary">About</a></li>
@@ -37,11 +40,14 @@ import Container from "./Container.astro";
         </ul>
       </div>
       <div
-        class="hidden min-w-full py-2 border-b-2 border-gray-100 dark:border-gray-800 sm:flex justify"
+        class="hidden invisible md:visible min-w-full py-2 border-b-2 border-gray-100 dark:border-gray-800 sm:flex justify"
       >
       </div>
       <div class="flex mt-4 items-center justify-center text-white">
-        <ul role="list" class="space-x-8 flex">
+        <ul
+          role="list"
+          class="md:space-x-8 list md:space-y-0 space-y-3 md:flex"
+        >
           <li>
             <a
               href="https://twitter.com/reinforz"
