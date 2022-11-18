@@ -1,4 +1,5 @@
 ---
+import { featureSection } from "../constants/constants";
 import Container from "./Container.astro";
 ---
 
@@ -21,13 +22,11 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            Generate questions using our state of the art NLP models
+            {featureSection.questionGenerationTitle}
           </h2>
 
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            Just provide a passage and our NLP model will generate questions for
-            you. You can currently only generate true-false questions but we
-            will be supporting other question types very soon!
+            {featureSection.questionGenerationDescription}
           </p>
         </div>
       </div>
@@ -49,14 +48,11 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center md:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            Explore quizzes created by others or create your own
+            {featureSection.quizExploreTitle}
           </h2>
 
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            Discover a variety of quizzes created by other users on diverse
-            topics. You can also create your own quizzes on any topic. Make it
-            public if you want others to play your quiz or make it private for
-            own practice.
+            {featureSection.quizExploreDescription}
           </p>
         </div>
       </div>
@@ -78,11 +74,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            Take the quiz and assess your mastery
+            {featureSection.quizAssessmentTitle}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            The quiz has a beautiful user interface that supports multiple types
-            of question.
+            {featureSection.quizAssessmentDescription}
           </p>
         </div>
       </div>
@@ -104,11 +99,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            Receive a detailed report on your performance
+            {featureSection.reportTitle}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            After each quiz we provide a detail performance report. Locate where
-            you are making the most mistakes and improve upon it.
+            {featureSection.reportDescription}
           </p>
         </div>
       </div>
@@ -130,11 +124,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            Track your progress through previous reports
+            {featureSection.pastReportTitle}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            We store all your previous quiz performance report. So that you can
-            look back and see how you have progressed.
+            {featureSection.pastReportDescription}
           </p>
         </div>
       </div>
@@ -156,12 +149,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            Compete for top spots in the quiz leaderboards!
+            {featureSection.leaderboardTitle}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            You are added points for playing the quizzes and many other
-            activities! Compare yourself with other users in the Global and
-            local quiz leaderboards!
+            {featureSection.leaderboardDescription}
           </p>
         </div>
       </div>

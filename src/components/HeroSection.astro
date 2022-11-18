@@ -1,4 +1,5 @@
 ---
+import { heroSection } from "../constants/constants";
 import Container from "./Container.astro";
 ---
 
@@ -28,9 +29,7 @@ import Container from "./Container.astro";
           >
         </h1>
         <p class="mt-8 text-gray-700 dark:text-gray-300">
-          Reinforz is an innovative platform for learners, students, and
-          educators to collaborate, reinforce and share their learning with the
-          help of artificial intelligence.
+          {heroSection.description}
         </p>
         <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
           <a
@@ -39,8 +38,8 @@ import Container from "./Container.astro";
             class="relative flex h-11 items-center justify-center px-6 before:absolute before:inset-0 before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
           >
             <span class="relative text-base font-semibold text-white"
-              >Get started</span
-            >
+              >Get started
+            </span>
           </a>
           <a
             href="https://discord.gg/K5QQnjY3UQ"
