@@ -11,7 +11,7 @@ import Container from "./Container.astro";
       >
         <div class="md:5/12 lg:w-2/3">
           <img
-            src="./img/quizGeneration.png"
+            src={featureSection[0].image}
             alt="image"
             width=""
             height=""
@@ -22,11 +22,11 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            {featureSection.questionGenerationTitle}
+            {featureSection[0].title}
           </h2>
 
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            {featureSection.questionGenerationDescription}
+            {featureSection[0].description}
           </p>
         </div>
       </div>
@@ -37,7 +37,7 @@ import Container from "./Container.astro";
       >
         <div class="md:5/12 lg:w-2/3">
           <img
-            src="./img/explore.png"
+            src={featureSection[1].image}
             alt="image"
             width=""
             height=""
@@ -48,11 +48,11 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center md:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            {featureSection.quizExploreTitle}
+            {featureSection[1].title}
           </h2>
 
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            {featureSection.quizExploreDescription}
+            {featureSection[1].description}
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@ import Container from "./Container.astro";
       >
         <div class="md:5/12 lg:w-2/3">
           <img
-            src="./img/assess.png"
+            src={featureSection[2].image}
             alt="image"
             width=""
             height=""
@@ -74,10 +74,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            {featureSection.quizAssessmentTitle}
+            {featureSection[2].title}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            {featureSection.quizAssessmentDescription}
+            {featureSection[2].description}
           </p>
         </div>
       </div>
@@ -88,7 +88,7 @@ import Container from "./Container.astro";
       >
         <div class="md:5/12 lg:w-2/3">
           <img
-            src="./img/report.png"
+            src={featureSection[3].image}
             alt="image"
             width=""
             height=""
@@ -99,10 +99,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            {featureSection.reportTitle}
+            {featureSection[3].title}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            {featureSection.reportDescription}
+            {featureSection[3].description}
           </p>
         </div>
       </div>
@@ -113,7 +113,7 @@ import Container from "./Container.astro";
       >
         <div class="md:5/12 lg:w-2/3">
           <img
-            src="./img/past-reports.png"
+            src={featureSection[4].image}
             alt="image"
             width=""
             height=""
@@ -124,10 +124,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            {featureSection.pastReportTitle}
+            {featureSection[4].title}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            {featureSection.pastReportDescription}
+            {featureSection[4].description}
           </p>
         </div>
       </div>
@@ -138,7 +138,7 @@ import Container from "./Container.astro";
       >
         <div class="md:5/12 lg:w-2/3">
           <img
-            src="./img/leaderboard.png"
+            src={featureSection[5].image}
             alt="image"
             width=""
             height=""
@@ -149,10 +149,10 @@ import Container from "./Container.astro";
           <h2
             class="text-3xl text-center sm:text-left font-bold text-gray-900 md:text-4xl dark:text-primary"
           >
-            {featureSection.leaderboardTitle}
+            {featureSection[5].title}
           </h2>
           <p class="my-8 text-gray-600 dark:text-gray-300">
-            {featureSection.leaderboardDescription}
+            {featureSection[5].description}
           </p>
         </div>
       </div>
