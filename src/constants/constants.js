@@ -41,3 +41,49 @@ export const featureSection = [
     image: "./img/leaderboard.png",
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "Home",
+    link: "#top",
+  },
+  {
+    title: "Blog",
+    link: "https://blog.reinforz.ai/",
+  },
+  {
+    title: "Terms",
+    link: "https://app.reinforz.ai/terms",
+  },
+  {
+    title: "Privacy",
+    link: "https://app.reinforz.ai/privacy",
+  },
+];
+
+export const footerSocialLinks = [
+  {
+    title: "Twitter",
+    link: "https://twitter.com/reinforz",
+  },
+  {
+    title: "Youtube",
+    link: "https://www.youtube.com/@reinforz",
+  },
+  {
+    title: "Facebook",
+    link: "https://www.facebook.com/profile.php?id=100086230436910",
+  },
+  {
+    title: "Instagram",
+    link: "https://www.instagram.com/reinforz/",
+  },
+  {
+    title: "Github",
+    link: "https://github.com/Reinforz/",
+  },
+  {
+    title: "LinkedIn",
+    link: "https://www.linkedin.com/company/reinforz/",
+  },
+];
