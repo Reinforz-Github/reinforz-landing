@@ -2,43 +2,40 @@
 import Container from "./Container.astro";
 ---
 
-<!-- 'Consent',
-          'Information we collect',
-          'How we use your information',
-          'Log Files',
-          'Cookies and Web Beacons',
-          'Advertising Partners Privacy Policies',
-          'Third Party Privacy Policies',
-          'CCPA Privacy Rights',
-          'GDPR Data Protection Rights',
-          "Children's Information" -->
 <div class="relative">
   <Container>
     <div class="flex">
-      <div class="pt-28 flex flex-col space-y-2 text-lg">
+      <div class="pt-28 hidden md:flex flex-col space-y-2">
         <a href="#consent" class="hover:text-primary">1. Consent</a>
-        <a href="#consent" class="hover:text-primary"
-          >2. How we use your information</a
+        <a href="#information-we-collect" class="hover:text-primary"
+          >2. Information we collect
+        </a>
+
+        <a href="#how-we-use-your-information" class="hover:text-primary"
+          >3. How we use your information</a
         >
-        <a href="#consent" class="hover:text-primary">3. Log Files</a>
-        <a href="#consent" class="hover:text-primary"
-          >4. Cookies and Web Beacons</a
+        <a href="#log-files" class="hover:text-primary">4. Log Files</a>
+        <a href="#cookies-and-web-beacons" class="hover:text-primary"
+          >5. Cookies and Web Beacons</a
         >
-        <a href="#consent" class="hover:text-primary"
-          >5. Advertising Partners Privacy Policies</a
+        <a
+          href="#advertising-partners-privacy-policies"
+          class="hover:text-primary">6. Advertising Partners Privacy Policies</a
         >
-        <a href="#consent" class="hover:text-primary"
-          >6. Third Party Privacy Policies</a
+        <a href="#third-party-privacy-policies" class="hover:text-primary"
+          >7. Third Party Privacy Policies</a
         >
-        <a href="#consent" class="hover:text-primary">7. CCPA Privacy Rights</a>
-        <a href="#consent" class="hover:text-primary"
-          >8. GDPR Data Protection Rights</a
+        <a href="#ccpa-privacy-rights" class="hover:text-primary"
+          >8. CCPA Privacy Rights</a
         >
-        <a href="#consent" class="hover:text-primary"
-          >9. Children's Information</a
+        <a href="#gdpr-data-protection-rights" class="hover:text-primary"
+          >9. GDPR Data Protection Rights</a
+        >
+        <a href="#childrens-information" class="hover:text-primary"
+          >10. Children's Information</a
         >
       </div>
-      <div class="relative w-3/4 pt-28 m-auto">
+      <div class="relative md:w-3/4 pt-28 m-auto">
         <h3 class="text-3xl">Privacy Policy for Reinforz</h3>
 
         <p class="pt-5">
