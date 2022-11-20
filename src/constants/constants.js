@@ -53,11 +53,11 @@ export const footerLinks = [
   },
   {
     title: "Terms",
-    link: "https://app.reinforz.ai/terms",
+    link: "https://reinforz.ai/terms",
   },
   {
     title: "Privacy",
-    link: "https://app.reinforz.ai/privacy",
+    link: "https://reinforz.ai/privacy",
   },
 ];
 
