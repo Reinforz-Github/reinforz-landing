@@ -3,10 +3,23 @@ import { heroSection } from "../constants/constants";
 import Container from "./Container.astro";
 ---
 
+<!-- <div
+    aria-hidden="true"
+    class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
+  >
+    <div
+      class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"
+    >
+    </div>
+    <div
+      class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"
+    >
+    </div>
+  </div> -->
 <div class="relative">
   <div
     aria-hidden="true"
-    class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
+    class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-20"
   >
     <div
       class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"
@@ -21,14 +34,12 @@ import Container from "./Container.astro";
     <div class="relative pt-36 ml-auto">
       <div class="lg:w-2/3 text-center mx-auto">
         <h1
-          class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl"
+          class="text-white font-bold text-5xl md:text-6xl xl:text-7xl"
           style="line-height:1.15 ;"
         >
-          Reinforcing Human Learning With <span
-            class="text-primary dark:text-primary">AI</span
-          >
+          Reinforcing Human Learning With <span class="text-primary">AI</span>
         </h1>
-        <p class="mt-8 text-gray-700 dark:text-gray-300">
+        <p class="mt-8 text-gray-300">
           {heroSection.description}
         </p>
         <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
@@ -44,10 +55,9 @@ import Container from "./Container.astro";
           <a
             href="https://discord.gg/K5QQnjY3UQ"
             target="_blank"
-            class="relative flex h-11 items-center justify-between px-6 before:absolute before:inset-0 before:border before:border-solid before:bg-primary/10 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-600 border-primary sm:w-max"
+            class="relative flex h-11 items-center justify-between px-6 before:absolute before:inset-0 before:border before:border-solid before:bg-primary/10 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 before:border-gray-600 border-primary sm:w-max"
           >
-            <span
-              class="relative text-base font-semibold text-primary dark:text-white"
+            <span class="relative text-base font-semibold text-white"
               >Discord</span
             ><img
               src="./discord.svg"
