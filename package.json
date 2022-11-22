@@ -14,7 +14,12 @@
     "astro": "^1.1.5"
   },
   "devDependencies": {
+    "@astrojs/react": "^1.2.2",
     "@astrojs/tailwind": "^1.0.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwind-scrollbar": "^2.0.1"
   }
 }
