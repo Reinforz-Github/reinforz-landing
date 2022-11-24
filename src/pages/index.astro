@@ -1,14 +1,14 @@
 ---
-import Blog from "../components/Blog.astro";
-import Features from "../components/Features.astro";
-import HeroSection from "../components/HeroSection.astro";
+import { BlogReact } from "../components/BlogReact";
+import FeaturesReact from "../components/FeaturesReact";
+import HeroSection from "../components/astroComponents/HeroSection.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Reinforz.">
   <main class="space-y-40 mb-40">
     <HeroSection />
-    <Features />
-    <Blog />
+    <FeaturesReact />
+    <BlogReact />
   </main>
 </Layout>

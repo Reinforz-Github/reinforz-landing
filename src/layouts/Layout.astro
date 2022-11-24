@@ -1,6 +1,6 @@
 ---
-import AppFooter from "../components/AppFooter.astro";
-import AppHeader from "../components/AppHeader.astro";
+import { AppFooterReact } from "../components/AppFooterReact";
+import AppHeader from "../components/astroComponents/AppHeader.astro";
 ---
 
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ import AppHeader from "../components/AppHeader.astro";
   >
     <AppHeader />
     <slot />
-    <AppFooter />
+    <AppFooterReact />
     <style>
       html {
         font-family: Raleway, system-ui;
