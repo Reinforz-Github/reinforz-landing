@@ -1,4 +1,4 @@
-import { featureSection } from "../constants/constants";
+import { featureSection } from "../constants/constants.js";
 
 import React from "react";
 
