@@ -33,4 +33,14 @@ export const changeLog = [
     improvements: ["Creating a question won't close the form anymore, and it will reset the form completely. this ", "added that"],
     fixes: ["fixed this ", "fixed that"],
   },
+  {
+    sprint: 69,
+    startDate: "01-12-2022",
+    features: [
+      'You will not be able to view the hints for a question, by clicking on the Hints button. It will open up a modal where you can click on "Show Hint", to view each individual hint.',
+      "You cant now finally generate questions using our model 🧠 that",
+    ],
+    improvements: ["Creating a question won't close the form anymore, and it will reset the form completely. this ", "added that"],
+    fixes: ["fixed this ", "fixed that"],
+  },
 ];
