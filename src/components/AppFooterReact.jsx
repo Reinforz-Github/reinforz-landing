@@ -12,8 +12,8 @@ export const AppFooterReact = () => {
                 role="list"
                 class="md:space-x-8 md:space-y-0 space-y-5 list md:flex"
               >
-                {footerLinks.map((footer) => (
-                  <li>
+                {footerLinks.map((footer, ind) => (
+                  <li key={ind}>
                     <a href={footer.link} class="transition hover:text-primary">
                       {footer.title}
                     </a>
