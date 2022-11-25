@@ -4,20 +4,23 @@ import { changeLog } from '../constants/changelog.js';
 const Changelog = () => {
   return (
     <div class='relative'>
-      <div class='max-w-7xl mx-auto px-6 md:px-12 xl:px-6'>
-        <div class='flex'>
+      <div class='max-w-7xl mx-auto px-6 md:px-12 xl:px-6 flex'>
+        <div class='flex-col'>
           {changeLog.map((log, index) => (
-            <div class='pt-28 hidden md:flex flex-col space-y-3'>
+            <div class='pt-28 hidden md:flex flex-col space-y-1'>
               <a
                 href={`#${log.sprint}`}
                 class='hover:text-primary font-semibold'
               >
-                {index + 1}. Sprint: {log.sprint} [ {log.startDate} ]
+                Sprint: {log.sprint} [{log.startDate}]
               </a>
             </div>
           ))}
+        </div>
+
+        <div class='flex-col'>
           <div class='relative md:w-3/4 pt-28 m-auto'>
-            <h3 class='text-4xl font-semibold text-primary text-center'>
+            <h3 class='text-4xl font-semibold text-primary'>
               Changelog for sprints
             </h3>
 
