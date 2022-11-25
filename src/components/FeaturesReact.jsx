@@ -8,7 +8,7 @@ const FeaturesReact = () => {
       <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 mt-48">
         {featureSection.map((feature, index) => {
           return (
-            <div class="mb-21 lg:mb-40">
+            <div class="mb-21 lg:mb-40" key={index}>
               <div
                 class={`space-y-7 justify-between text-gray-600 md:flex ${
                   index % 2 == 0 ? "flex-row-reverse" : ""
