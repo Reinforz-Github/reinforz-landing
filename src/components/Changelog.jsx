@@ -6,12 +6,14 @@ const Changelog = () => {
     <div class="relative">
       <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
         <div class="flex">
-          <div class="flex flex-col pt-28 mr-5">
-            <h3 class="text-2xl font-semibold text-primary ">Sprint List</h3>
+          <div class="flex-col pt-28 mr-5">
+            <h3 class="text-2xl md:flex hidden font-semibold text-primary ">
+              Sprint List
+            </h3>
             {changeLog.map((log, index) => (
-              <div class="pt-5 hidden md:flex flex-col " key={index}>
+              <div class="pt-5 md:flex hidden flex-col " key={index}>
                 <a
-                  href={`#${log.sprint}`}
+                  href={`#sprint-${log.sprint}`}
                   class="hover:text-primary font-semibold"
                 >
                   {index + 1}. Sprint {log.sprint}
@@ -28,31 +30,43 @@ const Changelog = () => {
               <div key={ind}>
                 <h4
                   class="text-2xl pt-16 mb-3 font-bold text-primary"
-                  id={`${log.sprint}`}
+                  id={`sprint-${log.sprint}`}
                 >
                   Sprint: {log.sprint} [ {log.startDate} ]
                 </h4>
 
-                <h6 class="font-semibold pt-2">Features: </h6>
+                {log.features.length !== 0 ? (
+                  <h6 class="font-semibold pt-2">Features: </h6>
+                ) : (
+                  ""
+                )}
 
                 {log.features.map((feature, index) => (
-                  <p class="pt-1">
+                  <p class="pt-1 my-3">
                     {index + 1}. {feature}
                   </p>
                 ))}
 
-                <h6 class="font-semibold pt-5">Fixes: </h6>
+                {log.fixes.length !== 0 ? (
+                  <h6 class="font-semibold pt-5">Fixes: </h6>
+                ) : (
+                  ""
+                )}
 
                 {log.fixes.map((fixe, index) => (
-                  <p class="pt-1">
+                  <p class="pt-1 my-3">
                     {index + 1}. {fixe}
                   </p>
                 ))}
 
-                <h6 class="font-semibold pt-5">Improvements: </h6>
+                {log.improvements.length !== 0 ? (
+                  <h6 class="font-semibold pt-5">Improvements: </h6>
+                ) : (
+                  ""
+                )}
 
                 {log.improvements.map((improvement, index) => (
-                  <p class="pt-1">
+                  <p class="pt-1 my-3">
                     {index + 1}. {improvement}
                   </p>
                 ))}
