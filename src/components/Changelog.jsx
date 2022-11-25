@@ -24,13 +24,13 @@ const Changelog = () => {
             {changeLog.map((log) => (
               <>
                 <h4
-                  class='text-3xl pt-16 font-bold text-primary'
+                  class='text-2xl pt-16 font-bold text-primary'
                   id={`${log.sprint}`}
                 >
                   Sprint: {log.sprint} [ {log.startDate} ]
                 </h4>
 
-                <p class='font-normal py-2'>Features: </p>
+                <h6 class='font-semibold py-2'>Features: </h6>
 
                 {log.features.map((feature, index) => (
                   <p class='pt-5'>
@@ -38,7 +38,7 @@ const Changelog = () => {
                   </p>
                 ))}
 
-                <p class='font-normal py-2'>Fixes: </p>
+                <h6 class='font-semibold py-2'>Fixes: </h6>
 
                 {log.fixes.map((fixe, index) => (
                   <p class='pt-5'>
@@ -46,7 +46,7 @@ const Changelog = () => {
                   </p>
                 ))}
 
-                <p class='font-normal py-2'>Improvements: </p>
+                <h6 class='font-semibold py-2'>Improvements: </h6>
 
                 {log.improvements.map((improvement, index) => (
                   <p class='pt-5'>
