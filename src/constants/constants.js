@@ -87,6 +87,10 @@ export const footerLinks = [
     title: "Privacy",
     link: "https://reinforz.ai/privacy",
   },
+  {
+    title: "Changelog",
+    link: "https://reinforz.ai/changelog",
+  },
 ];
 
 export const footerSocialLinks = [
