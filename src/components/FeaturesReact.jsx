@@ -17,10 +17,10 @@ const FeaturesReact = () => {
                 <div class="md:4/12 lg:w-2/3">
                   <img
                     src={feature.image}
-                    alt="image"
-                    width=""
-                    height=""
-                    class="w-full"
+                    alt={feature.title}
+                    width='300'
+                    height='300'
+                    class="w-5/6 mx-auto"
                   />
                 </div>
                 <div class="md:6/12 lg:w-1/2">

@@ -1,9 +1,13 @@
-import tailwind from "@astrojs/tailwind";
-import { defineConfig } from "astro/config";
+import tailwind from '@astrojs/tailwind';
+import { defineConfig } from 'astro/config';
+import robotsTxt from 'astro-robots-txt';
+import react from '@astrojs/react';
+import sitemap from "@astrojs/sitemap";
 
-import react from "@astrojs/react";
+import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react()]
+  site: 'https://reinforz.ai',
+  integrations: [tailwind(), react(), robotsTxt(), sitemap(), compress()]
 });
