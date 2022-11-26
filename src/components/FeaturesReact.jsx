@@ -18,7 +18,9 @@ const FeaturesReact = () => {
                   <img
                     src={feature.image}
                     alt={feature.title}
-                    class="sm:w-100 md:w-200 sm:h-150 md:h-250"
+                    width='300'
+                    height='300'
+                    class="w-5/6 mx-auto"
                   />
                 </div>
                 <div class="md:6/12 lg:w-1/2">
