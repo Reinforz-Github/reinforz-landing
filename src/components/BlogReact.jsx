@@ -36,7 +36,7 @@ export const BlogReact = () => {
                 <span class='text-gray-300 hover:text-primary'>
                   {blog.link !== null ? (
                     <a class='inline-block' target='_blank' href={blog.link}>
-                      Blog
+                      Read
                     </a>
                   ) : (
                     <p>Coming Soon</p>
