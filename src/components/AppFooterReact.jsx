@@ -27,8 +27,8 @@ export const AppFooterReact = () => {
                 role="list"
                 class="md:space-x-8 list md:space-y-0 space-y-5 md:flex"
               >
-                {footerSocialLinks.map((social) => (
-                  <li>
+                {footerSocialLinks.map((social,index) => (
+                  <li key={index}>
                     <a
                       href={social.link}
                       target="_blank"

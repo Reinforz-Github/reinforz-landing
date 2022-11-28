@@ -5,9 +5,9 @@ export const heroSection = {
 
 export const featureSection = [
   {
-    title: "Generate questions using our state of the art NLP models",
+    title: "Generate questions using our state of the art AI models",
     description:
-      "Just provide a passage and our NLP model will generate questions for you. You can currently only generate true-false questions but we will be supporting other question types very soon!",
+      "Just provide a passage and our AI model will generate questions for you. You can currently only generate true-false questions but we will be supporting other question types very soon!",
     image: "./img/quizGeneration.webp",
   },
   {
@@ -69,7 +69,7 @@ export const blogElemets = [
 export const footerLinks = [
   {
     title: "Home",
-    link: "#top",
+    link: "https://www.reinforz.ai/#top",
   },
   {
     title: "Blog",
@@ -77,7 +77,7 @@ export const footerLinks = [
   },
   {
     title: "Contact",
-    link: "mailto:admin@reinforz.xyz",
+    link: "mailto:admin@reinforz.ai",
   },
   {
     title: "Terms",
@@ -89,7 +89,7 @@ export const footerLinks = [
   },
   {
     title: "Changelog",
-    link: "https://reinforz.ai/changelog",
+    link: "https://reinforz.ai/changelog#top",
   },
 ];
 
