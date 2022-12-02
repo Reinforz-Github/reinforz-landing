@@ -1,7 +1,7 @@
 export const changeLog = [
   {
     sprint: 23,
-    startDate: '19-11-2022',
+    startDate: "19-11-2022",
     features: [
       `You can now add explanations for the answers to your fib questions. Click on "Add explanation" ➕ to add an explanation for each answer or "Remove explanation" to remove it.`,
       `You will now be able to view the hints you've used per question on the report page. Click on the "Hints used" button, and it will open up a modal with all the hints, along with an 👁️ icon to indicate that you've used that hint, Click on "Generate Questions," paste your passage, and let our model generate questions.`,
@@ -18,7 +18,7 @@ export const changeLog = [
   },
   {
     sprint: 22,
-    startDate: '12-11-2022',
+    startDate: "12-11-2022",
     features: [
       `You will now be able to view the hints for a question, by clicking on the Hints button. It will open up a modal where you can click on "Show Hint", to view each individual hint.`,
       `You can now finally generate questions using our model 🧠 Click on "Generate Questions," paste your passage, and let our model generate questions.`,
@@ -34,7 +34,7 @@ export const changeLog = [
   },
   {
     sprint: 21,
-    startDate: '05-11-2022',
+    startDate: "05-11-2022",
     features: [
       `You can now ignore whitespaces in answers for snippet and fib-type questions. Click on the "Ignore whitespace" checkbox under each answer to activate it ✅ When checked, both "Red Hat" and "RedHat" will be regarded as the correct answer.`,
       `If the "Ignore whitespace" modifier is turned on, it will ignore the whitespace and evaluate the answer based on the content alone.`,
@@ -50,7 +50,7 @@ export const changeLog = [
   },
   {
     sprint: 20,
-    startDate: '29-10-2022',
+    startDate: "29-10-2022",
     features: [
       `We finally have support for fill-in-the-blank questions. First, select "Fill in the Blank" from the question type dropdown, and keep adding or deleting blanks until you form the perfect question ❓`,
       `You can now view "Fill-in-the-blank" questions by clicking on the eye icon. For now, we have disabled all the blanks and the question fields.`,
@@ -66,7 +66,7 @@ export const changeLog = [
   },
   {
     sprint: 19,
-    startDate: '22-10-2022',
+    startDate: "22-10-2022",
     features: [
       `You will now get quiz recommendations 🔎 on your home page based on the last ones you've played, sorted based on popularity 🥇`,
       `For your quiz, you may now upload photos. The same strategy that your profile photo 👤 used is what we're doing. Upload a photo or copy and paste the link 🔗, if appropriate.`,
@@ -83,7 +83,7 @@ export const changeLog = [
   },
   {
     sprint: 18,
-    startDate: '15-10-2022',
+    startDate: "15-10-2022",
     features: [
       `You can view additional metadata about your quiz roles, like who created it, who last updated it, and when it was last updated.`,
       `You can upload a custom picture for your profile avatar 👤 `,
@@ -104,7 +104,7 @@ export const changeLog = [
   },
   {
     sprint: 17,
-    startDate: '08-10-2022',
+    startDate: "08-10-2022",
     features: [
       `All tables' sort and order settings persist across page refresh.`,
       `We show you your points and followers growth chart 📊 for the week on your homepage.`,
@@ -129,8 +129,55 @@ export const changeLog = [
     ],
   },
   {
+    sprint: 16,
+    startDate: "01-10-2022",
+    features: [
+      `We can now view the list of Followers and following users in a public profile page. We can also follow/unfollow users from there.`,
+      `We now show a beautiful pie chart based on the quiz's questions' type and difficulty`,
+      `You can now view your past reports on the My Reports page. Click on view button to view the whole report and play to play the quiz again.`,
+      `A new feature was launched to production. Activity points are now displayed in a yearly 'Heatmap' on public user profiles.`,
+      `A new feature was launched today 🥳. Users now can show their social media links in their profile if they choose to. Just ignore the inimoxto bug for now. Also, we recently migrated our website, reinforz, to a new domain. Please use https://reinforz.ai/ from now on. `,
+      ` A new feature was launched today 🚀. Users can now view critical stats for your quizzes. For example, we show the number of plays and ⭐️ your quiz received in the last week.`,
+    ],
+    improvements: [
+      `We worked on a ui/ux Improvement today, you can now view your profile from My Profile and Account takes you to account setting where you can now delete and logout of all devices from there.`,
+    ],
+    fixes: [],
+  },
+  {
+    sprint: 15,
+    startDate: "24-09-2022",
+    features: [
+      `Users can now follow each other and get notified. If a user goes the another user's profile, we'll now see the Follow Button or Unfollow Button. Clicking on following button will sent a notification to the followee`,
+      `You can now view the followers and following count on a public user's profile page.`,
+      `You can now play quizzes of various types (Multi Select, MCQ, Snippet, True False, and Descriptive). At the end of the game, reinforz will generate a report for you with your performance and XP gained in each question of the quiz.`,
+      `We have launched leaderboards to production. You can compare your scores in a particular quiz with that of other users. You can also see your previous scores on the same quiz.`,
+    ],
+    improvements: [],
+    fixes: [],
+  },
+  {
+    sprint: 14,
+    startDate: "17-09-2022",
+    features: [
+      `
+      You can now update your quiz and activities filter and sort settings in mobile view. You need to click on the ⚙️ button. It will open up a modal for you to update the sort and filters.
+      `,
+      `You can now view the list of starred quizzes in a public user's profile. There are two tabs now. One for the created quizzes and another for starred quizzes. You can also view your starred quizzes by going to My Quizzes > Starred
+      `,
+      `You can now add options for your questions.
+      For MCQ-type questions, you can have a single answer. Click the radio beside any of the options to make it the answer.
+      For Multi Select type questions, you can have multiple answers. Click the checkboxes beside the option to select it as the answer.We used a custom font (Raleway), previously it used system font`,
+      `You can now create T/F-based questions and select a single option as the answer can now star and unstar a quiz, much like what github does`,
+      `You can now create Snippet and Descriptive type questions.`,
+      `You can now play a quiz, but the flow isn't completed. Clicking on the play button will take you to the play page, where you can select the play options and start playing (we are still working on this feature).`,
+    ],
+    improvements: [],
+    fixes: [],
+  },
+  {
     sprint: 13,
-    startDate: '11-09-2022',
+    startDate: "11-09-2022",
     features: [
       `Notification system. You will be notified whenever someone stars one of your quizzes and vice versa.`,
       `Added discord Oauth. You can now log in to Reinforz with your discord account.`,
@@ -153,7 +200,7 @@ export const changeLog = [
   },
   {
     sprint: 12,
-    startDate: '04-09-2022',
+    startDate: "04-09-2022",
     features: [
       `Better mobile support using mobile drawer`,
       `Support signin/signup via github`,
