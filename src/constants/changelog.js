@@ -5,7 +5,6 @@ export const changeLog = [
   features: [
     `You can now use Ctrl/Cmd (Mac) + 1 to toggle superscript and Ctrl/Cmd (Mac) + 2 to toggle subscript formatting in the question editor.`,
     `You can now view the alternates for any question. Click on the 👁️ icon to view them.`,
-    `You can now view the explanations added for each answer of snippet and fib questions 👀`,
     `When playing the question, any of the alternate questions will be shown. This will ensure that nobody memorizes the question while answering 🧠`,
     `We now support adding max of two alternate answers (with ignore space and ignore case modifiers) for fib-type questions. If the main answer doesn't match, then the alternate ones will be used for evaluation.`,
     `For snippet questions, we now support adding alternate questions (with ignore space and ignore case modifiers). If the main answer doesn't match, then the alternate ones will be used for evaluation.`,
