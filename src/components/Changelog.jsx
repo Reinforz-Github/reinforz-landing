@@ -1,9 +1,7 @@
 import React from 'react';
-import changelog from '../../public/changelog.json';
+import changeLog from '../../public/changelog.json';
 
 const Changelog = () => {
-  const changeLog = changelog.changeLogs;
-
   return (
     <div class='relative'>
       <div class='max-w-7xl mx-auto px-6 md:px-12 xl:px-6'>
