@@ -41,11 +41,13 @@ const Changelog = () => {
                   ''
                 )}
 
-                {log.features.map((feature, index) => (
-                  <p class='pt-1 my-3'>
-                    {index + 1}. {feature}
-                  </p>
-                ))}
+                <ol class='list-decimal pl-4'>
+                  {log.features.map((feature, index) => (
+                    <li key={index} class='pt-1 my-3 text-justify'>
+                      {feature}
+                    </li>
+                  ))}
+                </ol>
 
                 {log.fixes.length !== 0 ? (
                   <h6 class='font-semibold pt-5'>Fixes: </h6>
@@ -53,11 +55,13 @@ const Changelog = () => {
                   ''
                 )}
 
-                {log.fixes.map((fixe, index) => (
-                  <p class='pt-1 my-3'>
-                    {index + 1}. {fixe}
-                  </p>
-                ))}
+                <ol type='1' class='list-decimal pl-7'>
+                  {log.fixes.map((fixe, index) => (
+                    <li key={index} class='pt-1 my-3 text-justify'>
+                      {fixe}
+                    </li>
+                  ))}
+                </ol>
 
                 {log.improvements.length !== 0 ? (
                   <h6 class='font-semibold pt-5'>Improvements: </h6>
@@ -65,11 +69,13 @@ const Changelog = () => {
                   ''
                 )}
 
-                {log.improvements.map((improvement, index) => (
-                  <p class='pt-1 my-3'>
-                    {index + 1}. {improvement}
-                  </p>
-                ))}
+                <ol type='1' class='list-decimal pl-7'>
+                  {log.improvements.map((improvement, index) => (
+                    <li key={index} class='pt-1 my-3 text-justify'>
+                      {improvement}
+                    </li>
+                  ))}
+                </ol>
               </div>
             ))}
           </div>
