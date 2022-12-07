@@ -55,7 +55,7 @@ const Changelog = () => {
                   ''
                 )}
 
-                <ol type='1' class='list-decimal pl-7'>
+                <ol class='list-decimal pl-4'>
                   {log.fixes.map((fixe, index) => (
                     <li key={index} class='pt-1 my-3 text-justify'>
                       {fixe}
@@ -69,13 +69,25 @@ const Changelog = () => {
                   ''
                 )}
 
-                <ol type='1' class='list-decimal pl-7'>
+                <ol class='list-decimal pl-4'>
                   {log.improvements.map((improvement, index) => (
                     <li key={index} class='pt-1 my-3 text-justify'>
                       {improvement}
                     </li>
                   ))}
                 </ol>
+
+                <div class='flex flex-col items-center py-4'>
+                  {log.youtubeLink !== '' ? (
+                    <a href={log.youtubeLink} target='_blank'>
+                      <button class='bg-primary text-white font-medium pt-1 my-3 py-1 px-6'>
+                        Watch Sprint Video
+                      </button>
+                    </a>
+                  ) : (
+                    ''
+                  )}
+                </div>
               </div>
             ))}
           </div>
