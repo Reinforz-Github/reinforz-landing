@@ -1,6 +1,5 @@
 ---
 import Container from "./Container.astro";
-const url = new URL(Astro.request.url)
 ---
 
 <header id="top">
@@ -18,7 +17,7 @@ const url = new URL(Astro.request.url)
         />
         <div class="relative z-20 w-full flex justify-center lg:w-max md:px-0">
           <a
-            href={url.href}
+            href='https://reinforz.ai/'
             aria-label="logo"
             class="flex space-x-2 items-center"
           >
@@ -29,8 +28,6 @@ const url = new URL(Astro.request.url)
               >Reinforz</span
             >
           </a>
-
-{console.log(url)}
 
           <!-- <div class="relative flex items-center lg:hidden max-h-10">
             <label
@@ -98,7 +95,7 @@ const url = new URL(Astro.request.url)
               </li>
               <li>
                 <a
-                  href={`${url.href}changelog`}
+                  href='/changelog'
                   class="block md:px-4 transition hover:text-primary"
                 >
                   <span>Changelog</span>
