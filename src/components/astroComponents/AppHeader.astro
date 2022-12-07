@@ -1,7 +1,6 @@
 ---
 import Container from "./Container.astro";
 const url = new URL(Astro.request.url)
-console.log(url)
 ---
 
 <header id="top">
@@ -30,6 +29,8 @@ console.log(url)
               >Reinforz</span
             >
           </a>
+
+{console.log(url)}
 
           <!-- <div class="relative flex items-center lg:hidden max-h-10">
             <label
