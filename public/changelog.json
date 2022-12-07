@@ -13,7 +13,7 @@
     ],
     "improvements": [],
     "fixes": [],
-    "youtubeLink": "https://youtu.be/dQw4w9WgXcQ"
+    "youtubeLink": "https://www.youtube.com/watch?v=hSx5b-TDH4U"
   },
   {
     "sprint": 23,
@@ -30,7 +30,7 @@
       "We have relocated our privacy and terms page to a static route under our landing page. And we also made it responsive! 🚀"
     ],
     "fixes": [],
-    "youtubeLink": "https://youtu.be/i7jU0xDABGM"
+    "youtubeLink": "https://www.youtube.com/watch?v=qdwWlIMvilc"
   },
   {
     "sprint": 22,
@@ -47,7 +47,7 @@
     ],
     "improvements": [],
     "fixes": [],
-    "youtubeLink": "https://youtu.be/dQw4w9WgXcQ"
+    "youtubeLink": "https://www.youtube.com/watch?v=gycgQJ-295o&t=271s"
   },
   {
     "sprint": 21,
@@ -64,7 +64,7 @@
       "Previously, deleting any of the options or hints deleted only the last one. Now the appropriate one will be deleted.",
       "The form input labels for text input are now back."
     ],
-    "youtubeLink": ""
+    "youtubeLink": "https://www.youtube.com/watch?v=ysd59Qnr3Sk&t=3s"
   },
   {
     "sprint": 20,
@@ -81,7 +81,7 @@
       "When selecting true/false questions from any other questions, the options were filled up with values other than True and False; thus, you couldn't create the question. This issue has been fixed.",
       "You can now keep the first blank in a FIB-type question empty. Previously, if the answer was the first word, you had to type something in the first portion of the question."
     ],
-    "youtubeLink": ""
+    "youtubeLink": "https://www.youtube.com/watch?v=Zxk7DWbFvUE&t=14s"
   },
   {
     "sprint": 19,
@@ -99,7 +99,7 @@
     "fixes": [
       "Fixed a bug where the timer shows 0 at the last question and doesn't move to the report page."
     ],
-    "youtubeLink": ""
+    "youtubeLink": "https://www.youtube.com/watch?v=fN4QMYOvg1c"
   },
   {
     "sprint": 18,
