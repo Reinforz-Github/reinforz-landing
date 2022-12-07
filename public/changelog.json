@@ -12,7 +12,8 @@
       "Going forward, we will ask you to confirm your account before you can use Reinforz 🔒 Please visit your email address and click on the confirmation button. If you want us to resend another confirmation email, please click on 'Resend confirmation email' 📧"
     ],
     "improvements": [],
-    "fixes": []
+    "fixes": [],
+    "youtubeLink": ["https://youtu.be/dQw4w9WgXcQ"]
   },
   {
     "sprint": 23,
@@ -28,7 +29,8 @@
     "improvements": [
       "We have relocated our privacy and terms page to a static route under our landing page. And we also made it responsive! 🚀"
     ],
-    "fixes": []
+    "fixes": [],
+    "youtubeLink": ["https://youtu.be/i7jU0xDABGM"]
   },
   {
     "sprint": 22,
@@ -44,7 +46,8 @@
       "Our landing page is online! Go to https: //www.reinforz.ai/ to visit our landing page! And our app platform is now hosted on https://app.reinforz.ai/."
     ],
     "improvements": [],
-    "fixes": []
+    "fixes": [],
+    "youtubeLink": ["https://youtu.be/dQw4w9WgXcQ"]
   },
   {
     "sprint": 21,
@@ -60,7 +63,8 @@
       "You can now keep the first blank in a FIB-type question empty. Previously, if the answer was the first word, you had to type something in the first portion of the question.",
       "Previously, deleting any of the options or hints deleted only the last one. Now the appropriate one will be deleted.",
       "The form input labels for text input are now back."
-    ]
+    ],
+    "youtubeLink": []
   },
   {
     "sprint": 20,
@@ -76,7 +80,8 @@
     "fixes": [
       "When selecting true/false questions from any other questions, the options were filled up with values other than True and False; thus, you couldn't create the question. This issue has been fixed.",
       "You can now keep the first blank in a FIB-type question empty. Previously, if the answer was the first word, you had to type something in the first portion of the question."
-    ]
+    ],
+    "youtubeLink": []
   },
   {
     "sprint": 19,
@@ -93,7 +98,8 @@
     ],
     "fixes": [
       "Fixed a bug where the timer shows 0 at the last question and doesn't move to the report page."
-    ]
+    ],
+    "youtubeLink": []
   },
   {
     "sprint": 18,
@@ -114,7 +120,8 @@
     ],
     "fixes": [
       "You can now remove quiz roles even if there is a single admin for the quiz."
-    ]
+    ],
+    "youtubeLink": []
   },
   {
     "sprint": 17,
@@ -140,7 +147,8 @@
       "Fixed a bug where you couldn't create the question if you changed it from multi-select to MCQ.",
       "When clearing the value of the number input fields, we remove the leading zero.",
       "Creating new quizzes and questions updates your XP in real-time."
-    ]
+    ],
+    "youtubeLink": []
   },
   {
     "sprint": 16,
@@ -156,7 +164,8 @@
     "improvements": [
       "We worked on a ui/ux Improvement today, you can now view your profile from My Profile and Account takes you to account setting where you can now delete and logout of all devices from there."
     ],
-    "fixes": []
+    "fixes": [],
+    "youtubeLink": []
   },
   {
     "sprint": 15,
@@ -168,7 +177,8 @@
       "We have launched leaderboards to production. You can compare your scores in a particular quiz with that of other users. You can also see your previous scores on the same quiz."
     ],
     "improvements": [],
-    "fixes": []
+    "fixes": [],
+    "youtubeLink": []
   },
   {
     "sprint": 14,
@@ -182,7 +192,8 @@
       "You can now play a quiz, but the flow isn't completed. Clicking on the play button will take you to the play page, where you can select the play options and start playing (we are still working on this feature)."
     ],
     "improvements": [],
-    "fixes": []
+    "fixes": [],
+    "youtubeLink": []
   },
   {
     "sprint": 13,
@@ -205,7 +216,8 @@
     ],
     "fixes": [
       "Previously clicking on the menu items didn't redirect you to the correct page, now it does."
-    ]
+    ],
+    "youtubeLink": []
   },
   {
     "sprint": 12,
@@ -221,6 +233,7 @@
       "Quiz page showed not found even for public quizzes",
       "Fixed deleting a question doesn't update its index. Now if you delete a question from the middle it will update the index of the rest of the questions"
     ],
-    "fixes": []
+    "fixes": [],
+    "youtubeLink": []
   }
 ]
