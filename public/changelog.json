@@ -1,4 +1,20 @@
 [
+ {
+    "sprint": 25,
+    "startDate": "03-12-2022",
+    "features": [
+      "You will now be able to export your questions in json format by clicking on the ⬇️ arrow beside the delete icon on each question card. We have plans on adding support for YAML soon so stay tuned 💯 ",
+      "As told before, we have added support for exporting your questions in YAML as well. Click on 'YAML' in the dropdown to do so.",
+      "Automating the process of getting notified in discord if a platform's status is down is very helpful as it notifies developers when their website is down. So we compiled all the steps needed to do so into a blog. Please feel free to provide any feedback. We hope you find it helpful. You can check out the article here: https://blog.reinforz.ai/how-to-automatically-receive-messages-in-discord-when-a-platform-is-down",
+      " We have added a 'forgot password' link on the login page. If you click there, you'll be redirected to a page where you can type your email to get a password reset link ✉️ 🔗. Click the link to replace your old password with a new one. ",
+      "You will now be able to import ⬆️ your exported questions for a quiz in both yaml and json format. Click on the 'Import questions' button and select the exported json or yaml file, then click create.",
+      "We have added support for importing an exported quiz. Click on the 'Import' button on the header and select the exported quiz file. Check the form to see if 🔎 everything is correct and press create.",
+      "We have added support for exporting a quiz in both JSON and YAML format. But only those who have editor or admin roles will be able to do so. This will export the quiz along with all the questions ⬇️"
+    ],
+    "improvements": [],
+    "fixes": [],
+    "youtubeLink": ""
+  },
   {
     "sprint": 24,
     "startDate": "26-11-2022",
@@ -13,7 +29,7 @@
     ],
     "improvements": [],
     "fixes": [],
-    "youtubeLink": "https://www.youtube.com/watch?v=hSx5b-TDH4U"
+    "youtubeLink": "https://youtu.be/dQw4w9WgXcQ"
   },
   {
     "sprint": 23,
@@ -30,7 +46,7 @@
       "We have relocated our privacy and terms page to a static route under our landing page. And we also made it responsive! 🚀"
     ],
     "fixes": [],
-    "youtubeLink": "https://www.youtube.com/watch?v=qdwWlIMvilc"
+    "youtubeLink": "https://youtu.be/i7jU0xDABGM"
   },
   {
     "sprint": 22,
@@ -47,7 +63,7 @@
     ],
     "improvements": [],
     "fixes": [],
-    "youtubeLink": "https://www.youtube.com/watch?v=gycgQJ-295o&t=271s"
+    "youtubeLink": "https://youtu.be/dQw4w9WgXcQ"
   },
   {
     "sprint": 21,
@@ -64,7 +80,7 @@
       "Previously, deleting any of the options or hints deleted only the last one. Now the appropriate one will be deleted.",
       "The form input labels for text input are now back."
     ],
-    "youtubeLink": "https://www.youtube.com/watch?v=ysd59Qnr3Sk&t=3s"
+    "youtubeLink": ""
   },
   {
     "sprint": 20,
@@ -81,7 +97,7 @@
       "When selecting true/false questions from any other questions, the options were filled up with values other than True and False; thus, you couldn't create the question. This issue has been fixed.",
       "You can now keep the first blank in a FIB-type question empty. Previously, if the answer was the first word, you had to type something in the first portion of the question."
     ],
-    "youtubeLink": "https://www.youtube.com/watch?v=Zxk7DWbFvUE&t=14s"
+    "youtubeLink": ""
   },
   {
     "sprint": 19,
@@ -99,7 +115,8 @@
     "fixes": [
       "Fixed a bug where the timer shows 0 at the last question and doesn't move to the report page."
     ],
-    "youtubeLink": "https://www.youtube.com/watch?v=fN4QMYOvg1c"
+    "youtubeLink": ""
+    
   },
   {
     "sprint": 18,
