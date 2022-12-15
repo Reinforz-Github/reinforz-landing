@@ -30,6 +30,10 @@ import AppHeader from "../components/astroComponents/AppHeader.astro";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' vitals.vercel-insights.com"
+    />
     <script defer src="/_vercel/insights/script.js"></script>
     <title>Reinforz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
