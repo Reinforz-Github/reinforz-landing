@@ -1,6 +1,7 @@
 ---
 import { AppFooterReact } from "../components/AppFooterReact";
 import AppHeader from "../components/astroComponents/AppHeader.astro";
+import TrackVitals from "../components/astroComponents/TrackVitals.astro";
 ---
 
 <!DOCTYPE html>
@@ -34,16 +35,6 @@ import AppHeader from "../components/astroComponents/AppHeader.astro";
       http-equiv="Content-Security-Policy"
       content="default-src 'self' vitals.vercel-insights.com"
     />
-    <script>
-      import { webVitals } from "./vitals.js";
-
-      const analyticsId = import.meta.env.PUBLIC_VERCEL_ANALYTICS_ID;
-
-      webVitals({
-        path: window.location.pathname,
-        analyticsId,
-      });
-    </script>
     <script defer src="/_vercel/insights/script.js"></script>
     <title>Reinforz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -68,5 +59,6 @@ import AppHeader from "../components/astroComponents/AppHeader.astro";
         margin: 0;
       }
     </style>
+    <TrackVitals />
   </body>
 </html>
