@@ -1,5 +1,5 @@
 import React from 'react';
-import { blogElemets } from '../constants/constants';
+import blogElemets from '../../public/blog.json'
 
 export const BlogReact = () => {
   return (
