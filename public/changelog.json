@@ -1,4 +1,21 @@
 [
+  {
+    "sprint": 26,
+    "startDate": "10-12-2022",
+    "features": [
+      "You can now view the blank lines in FIB-type questions in the question card. ",
+      "We have added support for importing an exported quiz. Click on the 'Import' button on the header and select the exported quiz file. Check the form to see if 🔎 everything is correct and press create.",
+      "You will now be able to generate fill-in-blanks questions by providing a passage 🥳 . We are constantly working to improve our models to generate faster and more coherent questions. We also plan to add support for other question types soon so stay tuned  💯",
+      " We now support generating snippet-type questions from a passage 🥳. Snippet-type questions have a single answer and are generally 'Wh'-based, based close-ended questions. We are planning on adding MCQ/MS support very soon so stay tuned 💯",
+      "You can now export your reports from the 'My reports' page as well as when viewing a fresh report after playing a quiz. At the moment we only support export in JSON format but we will add support for other file formats soon so stay tuned 💯",
+      "We have added support for exporting your reports in both JSON and YAML formats. Check the screenshot to understand what's exported. This will help you analyze your report on other platforms.",
+    ],
+    "improvements": [
+      "We fixed the layout for the activity and change-password page." 
+    ],
+    "fixes": [],
+    "youtubeLink": "https://youtu.be/xsRGrS1rDEM"
+  },
  {
     "sprint": 25,
     "startDate": "03-12-2022",
