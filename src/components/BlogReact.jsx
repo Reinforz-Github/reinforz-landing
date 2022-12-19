@@ -1,5 +1,5 @@
 import React from 'react';
-import blogElemets from '../../public/blog.json'
+import blogElemets from '../../public/blog.json';
 
 export const BlogReact = () => {
   return (
@@ -31,7 +31,13 @@ export const BlogReact = () => {
                 <h3 class='text-2xl font-semibold text-primary'>
                   {blog.title}
                 </h3>
-                <p class='mt-6 mb-8 text-gray-300'>{blog.description}</p>
+                {blog.datePublished && (
+                  <p class='mt-3 mb-2 text-gray-300'>
+                    Posted on: {blog.datePublished}
+                  </p>
+                )}
+
+                <p class='mt-3 mb-8 text-gray-300'>{blog.description}</p>
 
                 <span class='text-gray-300 hover:text-primary'>
                   {blog.link !== null ? (

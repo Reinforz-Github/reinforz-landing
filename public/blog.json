@@ -1,26 +1,30 @@
 [
   {
+    "title": "How to automatically receive messages in discord when a platform is down",
+    "description": "Automating the process of getting notified in discord if a platform's status is down by using DevOps utilities like...",
+    "datePublished": "12 Dec,2022",
+    "imgSrc": "/blog-img/Discord-Bot-Hosting.webp",
+    "link": "https://blog.reinforz.ai/how-to-automatically-receive-messages-in-discord-when-a-platform-is-down"
+  },
+  {
     "title": "Twitter Oauth 2.0 authentication in a Full Stack Application",
     "description": "Here, we will learn to implement authentication using Twitter OAuth 2.0 on a minimal working full-stack web application...",
     "imgSrc": "/blog-img/twitter.webp",
+    "datePublished": "21 Oct,2022",
     "link": "https://dev.to/reinforz_dev/implementing-authentication-with-twitter-oauth-20-using-typescript-node-js-express-js-and-next-js-in-a-full-stack-application-353d"
-  },
-  {
-    "title": "How to automatically receive messages in discord when a platform is down",
-    "description": "Automating the process of getting notified in discord if a platform's status is down by using DevOps utilities like...",
-    "imgSrc": "./blog-img/Discord-Bot-Hosting.webp",
-    "link": "https://blog.reinforz.ai/how-to-automatically-receive-messages-in-discord-when-a-platform-is-down"
   },
   {
     "title": "Switching from Yup to Zod for schema validation.",
     "description": "Zod is a TypeScript-first schema declaration and validation library. The term 'schema' to broadly refer to any data type, from a simple string to ...",
-    "imgSrc": "./blog-img/zod.webp",
+    "datePublished": null,
+    "imgSrc": "/blog-img/zod.webp",
     "link": null
   },
   {
     "title": "How to setup Python virtual environments in Conda.",
     "description": "Virtual environments are an absolute essential to work as a machine learning engineer or data scientist in Python. It enables you to...",
-    "imgSrc": "./blog-img/venv.webp",
+    "datePublished": null,
+    "imgSrc": "/blog-img/venv.webp",
     "link": null
   }
 ]
