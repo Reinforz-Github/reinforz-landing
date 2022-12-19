@@ -11,12 +11,12 @@
       "We have added support for exporting your reports in both JSON and YAML formats. Check the screenshot to understand what's exported. This will help you analyze your report on other platforms."
     ],
     "improvements": [
-      "We fixed the layout for the activity and change-password page." 
+      "We fixed the layout for the activity and change-password page."
     ],
     "fixes": [],
     "youtubeLink": "https://youtu.be/xsRGrS1rDEM"
   },
- {
+  {
     "sprint": 25,
     "startDate": "03-12-2022",
     "features": [
@@ -133,7 +133,6 @@
       "Fixed a bug where the timer shows 0 at the last question and doesn't move to the report page."
     ],
     "youtubeLink": ""
-    
   },
   {
     "sprint": 18,
