@@ -1,5 +1,21 @@
 [
   {
+    "sprint": 27,
+    "startDate": "17-12-2022",
+    "features": [
+      "You can now drag and reorder the questions in your quizzes. Click on the drag icon on the top left and drag up and down to reorder the questions 🧤",
+      "We have pushed a small QOL improvement. When changing the question type, the question field won't get cleared (unless you are switching from FIB to other types or vice versa).",
+      "You will now be able to generate MCQ-type questions using our question generator. Our state-of-the-art models will try to generate questions as well as the appropriate options.",
+      "We have added more control for you when generating questions 🎮. You can now select between the FIB and Snippet types when generating questions from the passage. We are planning on adding support for MCQ and T/F questions soon so stay tuned 💯",
+      "In addition to FIB and Snippet-type questions we now support generating MCQ and T/F questions as well 🎮. We plan on giving more fine-grained control to you when generating questions so stay tuned for updates 💯",
+      "You will now be able to generate alternate questions ↩️ ↪️ for all your generated questions (except for FIB questions) by clicking on the Alternate Questions checkbox ☑️",
+      "We have now added the YouTube link button to our sprint videos. You can now see the sprint video under each sprint."
+    ],
+    "improvements": [],
+    "fixes": [],
+    "youtubeLink": "https://youtu.be/hNNwxfOzh5M"
+  },
+  {
     "sprint": 26,
     "startDate": "10-12-2022",
     "features": [
