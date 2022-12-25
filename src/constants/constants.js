@@ -116,13 +116,13 @@ export const integrationsSection = {
     {
       path: "./img/Hashnode-logo.png",
       name: "Hashnode Logo",
-      class: "h-16 w-auto mx-auto",
+      class: "max-h-16 w-auto",
       link: "https://hashnode.com/",
     },
     {
       path: "./img/Wikipedia-logo.svg",
       name: "Wikipedia Logo",
-      class: "h-32 w-auto mx-auto",
+      class: "h-32 w-auto",
       link: "https://www.wikipedia.org/",
     },
   ],
