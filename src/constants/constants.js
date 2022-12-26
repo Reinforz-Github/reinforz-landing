@@ -114,7 +114,7 @@ export const integrationsSection = {
     "We support the following integrations at Reinforz with more constantly being added. Got an idea for an integration? Hop onto our discord server and let us know!",
   logos: [
     {
-      path: "./img/Hashnode-logo.png",
+      path: "./img/Hashnode-logo.webp",
       name: "Hashnode Logo",
       class: "max-h-16 w-auto",
       link: "https://hashnode.com/",
