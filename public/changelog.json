@@ -1,5 +1,22 @@
 [
   {
+    "sprint": 28,
+    "startDate": "24-12-2022",
+    "features": [
+      "You can now generate alternate questions for question that you manually create! Just click the generate alternate button and alternate question will be generated for your input.",
+      "You will now be able to generate questions from Wikipedia pages 🧠. Just type the page title and select the appropriate one. Finally, click 'generate' and let the magic happen 🎩.",
+      "You can now control which emails you want us to send to your email. Just go to your account settings and update which emails you want to see. For now, you can only control weekly update emails. However, soon you will be able to control more types of emails, so stay tuned!",
+      "You can now choose whether you want to receive emails about our newly published blogs! Tell us which emails you want us to send you by going to your account settings and updating the email checkboxes 🚀",
+      "You will now get Weekly Updates in your email if you opt-in from user settings."
+    ],
+    "improvements": [
+      "We have deployed new improvements to our True/False question generation model. We made use of the very popular wordnet package to generate antonyms for NOUN entities to generate better falsified questions.",
+      "We have made the error messages a lot easier and more user-friendly to read and understand."
+    ],
+    "fixes": [],
+    "youtubeLink": "https://youtu.be/mqGektCsCrg"
+  },
+  {
     "sprint": 27,
     "startDate": "17-12-2022",
     "features": [
