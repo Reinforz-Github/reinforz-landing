@@ -1,5 +1,23 @@
 [
   {
+    "sprint": 29,
+    "startDate": "31-12-2022",
+    "features": [
+      "We have launched our initial integration with Wikipedia 🧠. You will now be able to fill in the metadata for your quiz by just searching for a Wikipedia article and selecting one from the list.",
+      "You can now see different alternative answers in the report of a previously played quiz. Click on the eye to toggle the view of the alternate answers!",
+      "You will now get our newly released blog in your email if you opt-in from user settings.",
+      "There is now a help button ❔ in our navigation bar at the top of the page which you can use if you have any questions for us. Click on it to come to our discord server and ask us any questions!"
+    ],
+    "improvements": [
+      "We have relocated the email settings to their own tab. Previously it was located inside Account at the very bottom making it harder for you to find."
+    ],
+    "fixes": [
+      "Sometimes the FIB generate feature would generate FIB questions without any blanks. That bug has been fixed!",
+      "Our FIB generator now 100% ensures that the blanks are either nouns or adjective. Previously there was a bug that prevented it from being so. That bug has been fixed!"
+    ],
+    "youtubeLink": "https://youtu.be/vdI_ZOZe5Ko"
+  },
+  {
     "sprint": 28,
     "startDate": "24-12-2022",
     "features": [
